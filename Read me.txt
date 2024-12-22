@@ -1,0 +1,73 @@
+DATABASE MANAGEMENT SYSTEM (DBMS)
+
+Welcome to the Database Management System, a simple application for creating,
+managing, and manipulating databases. It supports features like creating new databases,
+editing existing ones, viewing entries, and deleting databases. 
+
+---
+
+FEATURES
+
+1. Create New Database:
+   - Add custom fields with specified widths.
+   - Use templates for predefined database types (e.g., Inventory, Employees, etc.).
+   - Insert records interactively with real-time validation.
+
+2. Edit Existing Database:
+   - Add, edit, or delete entries.
+   - Add, edit, or delete fields dynamically.
+   - Search records Any parameters.
+   - Filter on Baise of Multiple Values
+
+3. View Database:
+   - Display all records in a clear SpreadSheet format.
+
+4. Delete Database:
+   - Remove unnecessary databases easily.
+
+5. Automatic Data Handling:
+   - Data is stored as .txt files and automatically retrieved when needed.
+
+---
+
+USER INSTRUCTIONS
+
+Getting Started:
+1. Install Python 3.x on your system.
+2. Download the project files and extract them.
+3. Run the program by Opening 'Database Management System' named file.
+
+Menu Options:
+1. Create New Database:
+   - Follow prompts to define fields, set widths, and insert records.
+   - Choose between custom or template-based database creation.
+2. Edit Existing Database:
+   - Select an existing database to modify.
+   - Add, edit, or delete records and fields.
+3. View Existing Database:
+   - Enter the database name to view entries in a tabular format.
+4. Delete Existing Database:
+   - Select a database to delete permanently.
+5. Exit:
+   - Just Press Alt+F4 or Window Close Button ;)
+
+---
+
+PROJECT STRUCTURE
+
+- MainDBMS.py: Entry point and main menu system.
+- CreateDBMS.py: Functions for creating databases and adding records.
+- EditDBMS.py: Functions for modifying databases, including adding, editing, and deleting.
+
+---
+
+NOTES
+
+1. Databases are saved as .txt files in the "Data" folder.
+2. Avoid manually editing the .txt files to prevent data corruption.
+3. Exit the program properly to ensure all changes are saved.
+4. Database names are stored in "Databases Names.txt".
+
+---
+
+Enjoy using your Database Management System!

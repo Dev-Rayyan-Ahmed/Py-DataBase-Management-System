@@ -1,0 +1,149 @@
+====================================
+        DATABASE MANAGEMENT SYSTEM
+====================================
+By Rayyan Ahmed (NED-CS-24138)
+
+Main()
+-----
+- Display the Main window of the GUI.
+- Functions: 
+  * Create()
+  * Edit()
+  * View()
+  * Delete()
+- Display/Update the area to show specific options.
+
+EditButtons()
+------------
+- Display all the Buttons in Edit().
+
+# Functions for All Areas:
+--------------------------
+1. Update_DatabaseNames()
+   - Returns the current database names from the ‘Database Names.txt’ file.
+
+2. ClearFrame(win)
+   - Takes a window as an argument and clears all of its widgets.
+
+3. RetrieveData(file)
+   - Reads the specified file and returns all its data as a Double List 
+     (each list being one row).
+
+4. WriteToFile()
+   - Writes the current database list into the file as CSV-Format.
+
+5. WriteEmptyFile(name)
+   - Writes an empty file with only S No. and its length.
+   - The name of the file is given as an argument.
+
+# Functions for Create:
+-----------------------
+1. TempDBMS()
+   - Shows all available templates and allows the creation of a database using them.
+
+2. CreateDBMS()
+   - Used to create a custom DBMS.
+
+3. Inputs(), InputFieldData(), AddEntry(), Finish()
+   - Functions to create a database, add initial entries, and finalize it.
+
+====================================
+        EDITING THE DBMS
+====================================
+
+# Search Functions:
+-------------------
+1. Edit_Search(Selection)
+   - Original function to initiate the search process based on a general selection.
+
+2. Searching(Selection, QueryBox, Searchwin)
+   - Handles the searching process based on the selection and search criteria.
+
+3. Search_AddQuery(SearchField, SearchEntry, QueryBox)
+   - Adds a query to the search box for further filtering.
+
+# Delete Field Functions:
+-------------------------
+1. Edit_DeleteField(Selection)
+   - Original function to delete a field based on a general selection.
+
+2. Edit_DeleteField2(Selection, delete_window, deleteField)
+   - Deletes a specific field within the database based on the selection.
+
+# Edit Field Functions:
+-----------------------
+1. Edit_EditField(Selection)
+   - Original function to allow editing of a field based on a general selection.
+
+2. Edit_EditField2(edit_window, EditField)
+   - Edits a field within a specified window.
+
+3. Edit_EditField3(win, db, EF_Entry, EF_LengthEntry, EF_L, Name, EditSerial)
+   - Modifies field properties in the database, including length and entry values.
+
+4. Edit_EditField4(win, Name, serials, Entries, Fields, Widths, EF_Entry, Y, EF_L, db, EditSerial, x)
+   - Edits a specific field in the database using detailed parameters such as serials and fields.
+
+# Retain Entries:
+-----------------
+1. KeepEntries(win, Name, x, y, EditSerial)
+   - Retains specific entries in the database for future modifications.
+
+# Add Field Functions:
+----------------------
+1. Edit_AddField(Selection)
+   - Original function to add a general field to the database based on the selection.
+
+2. Edit_AddField2(win, db, AF_Entry, AF_LengthEntry, AF_L, Name)
+   - Adds a field to the database with entry lengths and names.
+
+3. Edit_AddField3(win, db, serials, Entries, Fields, Widths, AF_Entry, y, AF_L, db)
+   - Adds a new field to the database using various parameters such as field widths and entries.
+
+# Delete Entry Functions:
+-------------------------
+1. Edit_DeleteEntry()
+   - Original function to delete a database entry without specific parameters.
+
+2. Edit_DeleteEntry2(serials, Delete_SerialEntry, db, Name, Delete_win)
+   - Deletes an entry based on serial numbers and database details.
+
+# Edit Entry Functions:
+-----------------------
+1. Edit_EditEntry(Selection)
+   - Original function to edit a database entry based on a general selection.
+
+2. Edit_EditEntry2(db, Entries, Widths, Fields, l1, i, Name, Edit_SerialEntry)
+   - Edits a database entry by using field widths, names, and serial details.
+
+# Add Entry Function:
+---------------------
+1. AddEntry(Selection)
+   - Adds an entry to the database using the given selection.
+
+====================================
+        DISPLAY AND DELETE
+====================================
+
+# Delete Database Functions:
+----------------------------
+1. DeleteDatabase(Selection, Selector, frame)
+   - Deletes a specific database based on the selection, selector, and the given frame.
+
+# Display Functions:
+--------------------
+1. DisplayDataBase(Selection)
+   - Original function to display a database based on the selection.
+
+2. Display(data, Select="Search")
+   - Displays database data with options to focus on specific selections, such as "Search".
+
+***************************************************************************************************************\
+By Rayyan Ahmed (NED-CS-24138)
+
+
+
+
+
+
+
